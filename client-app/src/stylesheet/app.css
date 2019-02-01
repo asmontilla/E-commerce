@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+}
+body {
+  background-color: #EEEEEE;
+}
+
+.app {
+  text-align: center;
+  background-color: #EEEEEE;
+}
+.app .nav {
+  background-color: #BC3B6A;
+}
+.app .nav .search {
+  width: 30px;
+  height: 30px;
+}
+.app .nav .loguito {
+  width: 30px;
+  height: 35px;
+}
+.app .nav .input {
+  width: 800px;
+  height: 30px;
+}
+
+.div-container {
+  background-color: #EEEEEE;
+}
+.div-container .box {
+  display: flex;
+  background-color: white;
+  width: 70%;
+  margin-top: 5px;
+  margin-left: 200px;
+}
+.div-container .box .picture {
+  width: 20%;
+}
+.div-container .box .middle {
+  width: 70%;
+  font-weight: 500;
+}
+.div-container .box .middle .titlezize {
+  width: 45%;
+}
+.div-container .box .middle .titlezize .title {
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.div-container .box .location {
+  width: 25%;
+  font-family: "Roboto", sans-serif;
+}
+
+.div-details {
+  background-color: #EEEEEE;
+  height: auto;
+}
+.div-details .detailsw {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  background-color: white;
+}
+.div-details .detailsw .left {
+  width: 70%;
+}
+.div-details .detailsw .P {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.div-details .detailsw .description {
+  width: 80%;
+  text-justify: unset;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+.div-details .one {
+  width: 40%;
+  height: 50%;
+}
+.div-details .right {
+  width: 30%;
+  margin-top: 100px;
+}
+.div-details .title1 {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.div-details .price1 {
+  font-size: 50px;
+}
+.div-details .price1 .decimal {
+  font-size: 20px;
+}
+.div-details p {
+  font-family: "Roboto", sans-serif;
+}
+.div-details .compra {
+  background-color: #00a2ff;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  color: aliceblue;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=app.css.map */

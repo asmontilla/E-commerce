@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+
+@font-face {
+   font-family: 'Roboto', sans-serif;
+   src: url('https://fonts.googleapis.com/css?family=Roboto:400,500,700')
+};
+
+
+body{
+    background-color: #EEEEEE;
+
+
+}
+
+
+.app{
+    text-align: center;
+    background-color: #EEEEEE;
+   
+
+
+.nav{
+     background-color:#BC3B6A;
+     .search{
+        width:30px;
+        height: 30px;
+
+     }
+   
+    .loguito{
+        width:30px;
+        height: 35px;
+      
+      }
+    .input{
+        width: 800px;
+        height: 30px;
+      }
+
+}
+}
+
+
+
+.div-container{
+    background-color: #EEEEEE;
+    
+.box{
+    display:flex;
+    background-color:white;
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 200px;
+    .picture{
+        width: 20%;
+    }
+    .middle{
+        width: 70%;
+        font-weight: 500;
+        .titlezize{
+            width: 45%;
+            
+            .title{
+              text-align: justify;
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+      
+             }
+         
+          }
+    }
+      
+    
+   
+    
+    .location{
+    
+        width: 25%;
+        font-family: 'Roboto', sans-serif;
+    }
+  
+  }
+  }
+
+
+.div-details{
+    background-color: #EEEEEE;
+    height: auto;
+   
+    .detailsw{
+    display:flex;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+
+    .left{
+     width: 70%;   
+    }
+    .P{
+        
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+    .description{
+        width: 80%;
+        text-justify:unset;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+
+    }
+    }
+    
+    .one{
+        width: 40%;
+        height: 50%;
+    }
+    .right{
+        width: 30%;
+        margin-top: 100px;
+        
+    }
+    
+    .title1{
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        
+        
+    }
+    .price1{
+        font-size: 50px;
+       .decimal{
+           font-size: 20px;
+    
+       }
+    }
+    p{
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .compra{
+        background-color: rgb(0, 162, 255);
+        border-radius: 5px;
+        width: 200px;
+        height:40px;
+        color: aliceblue;
+      
+      }
+      
+      
+}
+
+.Link{
+    text-decoration: none;
+    color:black;
+}
