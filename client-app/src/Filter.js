@@ -32,7 +32,7 @@ class Filter extends Component {
         <nav className="nav"><img className="loguito" src={ada} alt="" />
         
         <input value= {this.state.valueDelInput} onChange={this.handleOnchangeInput}className="input"  type="text" placeholder="Nunca dejes de buscar"  />
-        <Link to={"/items?search=" + this.state.valueDelInput}> <button className="search" > <img  src={search} alt="" /> </button></Link>
+        <button className="search" ><Link to={"/items?search=" + this.state.valueDelInput}><img  src={search} alt=""/></Link></button>
       
         </nav>
 

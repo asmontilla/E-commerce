@@ -79,3 +79,4 @@ class ProductDetails extends Component {
 
 export default ProductDetails;
 
+{/* <p> {p.price.amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")} {p.price.decimal.padEnd(2, 0)} </p>  */}

@@ -55,8 +55,8 @@ class ProductList extends Component {
 
           <div className="middle">
             <span>{p.price.currency === "ARS" && "$"}</span>
-            <span className="amount">{p.price.amount} </span>
-            <span className="decimal">{p.price.decimal}</span>
+            <span className="amount">{p.price.amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")} </span>
+            <span className="decimal">{p.price.decimal.padEnd(2, 0)}</span>
             <img className="send" src={p.free_shipping === true && send} />
             <div className="titlezize">
               <p className="title">{p.title}</p>

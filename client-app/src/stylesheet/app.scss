@@ -5,13 +5,10 @@
    src: url('https://fonts.googleapis.com/css?family=Roboto:400,500,700')
 };
 
-
 body{
     background-color: #EEEEEE;
 
-
 }
-
 
 .app{
     text-align: center;
@@ -22,14 +19,15 @@ body{
 .nav{
      background-color:#BC3B6A;
      .search{
-        width:30px;
-        height: 30px;
+        width:35px;
+        height: 35px;
 
      }
    
     .loguito{
-        width:30px;
+        width:35px;
         height: 35px;
+        
       
       }
     .input{
@@ -51,12 +49,17 @@ body{
     width: 70%;
     margin-top: 5px;
     margin-left: 200px;
+    margin-bottom: 5px;
     .picture{
         width: 20%;
     }
     .middle{
         width: 70%;
         font-weight: 500;
+        .decimal{
+            font-size: 15px;
+     
+        }
         .titlezize{
             width: 45%;
             
@@ -90,14 +93,15 @@ body{
     .detailsw{
     display:flex;
     width: 70%;
+    height: auto;
     margin: auto;
     background-color: white;
+    overflow: scroll;
 
     .left{
      width: 70%;   
     }
     .P{
-        
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
     }
@@ -106,6 +110,8 @@ body{
         text-justify:unset;
         font-family: 'Roboto', sans-serif;
         font-size: 12px;
+        margin-bottom: 10px;
+        
 
     }
     }
@@ -122,8 +128,7 @@ body{
     
     .title1{
         font-weight: 500;
-        font-family: 'Roboto', sans-serif;
-        
+        font-family: 'Roboto', sans-serif;    
         
     }
     .price1{
@@ -133,10 +138,7 @@ body{
     
        }
     }
-    p{
-        font-family: 'Roboto', sans-serif;
-    }
-
+  
     .compra{
         background-color: rgb(0, 162, 255);
         border-radius: 5px;
