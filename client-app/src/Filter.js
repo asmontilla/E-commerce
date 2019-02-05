@@ -28,13 +28,12 @@ class Filter extends Component {
 
     return (
       <div className="app">
-
+        <div className= "pink">
         <nav className="nav"><img className="loguito" src={ada} alt="" />
-        
         <input value= {this.state.valueDelInput} onChange={this.handleOnchangeInput}className="input"  type="text" placeholder="Nunca dejes de buscar"  />
         <button className="search" ><Link to={"/items?search=" + this.state.valueDelInput}><img  src={search} alt=""/></Link></button>
-      
         </nav>
+        </div>
 
       </div>
     );

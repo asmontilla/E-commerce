@@ -7,35 +7,37 @@
 
 body{
     background-color: #EEEEEE;
-
 }
 
 .app{
     text-align: center;
     background-color: #EEEEEE;
-   
-
-
-.nav{
-     background-color:#BC3B6A;
-     .search{
-        width:35px;
-        height: 35px;
-
-     }
-   
-    .loguito{
-        width:35px;
-        height: 35px;
+    .pink{
+        background-color:#BC3B6A;
+        .nav{
+            margin-right: 7px;
+            margin-left: 250px;
+            display:flex;
+             
+             .search{
+                width:35px;
+                height: 35px;
+             }
+           
+            .loguito{
+                width:35px;
+                height: 35px;
+              }
+            .input{
+                width: 800px;
+                height: 30px;
+              }
         
-      
-      }
-    .input{
-        width: 800px;
-        height: 30px;
-      }
+        }
 
-}
+    }
+
+
 }
 
 
@@ -58,11 +60,9 @@ body{
         font-weight: 500;
         .decimal{
             font-size: 15px;
-     
         }
         .titlezize{
             width: 45%;
-            
             .title{
               text-align: justify;
               font-family: 'Roboto', sans-serif;
@@ -72,9 +72,6 @@ body{
          
           }
     }
-      
-    
-   
     
     .location{
     

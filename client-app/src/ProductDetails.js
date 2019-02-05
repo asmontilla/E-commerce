@@ -10,6 +10,7 @@ class ProductDetails extends Component {
     super(props)
     this.state = {
       categories: [],
+      loading: true,
       product: {
         
         item: {
@@ -32,7 +33,8 @@ class ProductDetails extends Component {
       .then((data) => {
         this.setState({
           product: data,
-          categories: data.categories
+          categories: data.categories,
+          loading: false
 
         })
 
@@ -43,6 +45,10 @@ class ProductDetails extends Component {
 
 
   render() {
+     
+    if (this.state.loading) {
+      return <p>Cargando...</p>
+    }
 
 
     return (

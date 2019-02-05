@@ -11,7 +11,8 @@ class ProductList extends Component {
     this.state = {
 
       products: [],
-      categories: []
+      categories: [],
+      loading: true
 
     }
   }
@@ -29,7 +30,8 @@ class ProductList extends Component {
 
         this.setState({
           products: data.items,
-          categories: data.categories
+          categories: data.categories,
+          loading: false
           
         })
       })
@@ -46,6 +48,10 @@ class ProductList extends Component {
   }
 
   render() {
+   
+    if (this.state.loading) {
+      return <p>Cargando...</p>
+    }
     
     const productos = this.state.products.map(p =>
       <Link className="Link" to={"/items/" + p.id}>

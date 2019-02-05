@@ -11,18 +11,23 @@ body {
   text-align: center;
   background-color: #EEEEEE;
 }
-.app .nav {
+.app .pink {
   background-color: #BC3B6A;
 }
-.app .nav .search {
+.app .pink .nav {
+  margin-right: 7px;
+  margin-left: 250px;
+  display: flex;
+}
+.app .pink .nav .search {
   width: 35px;
   height: 35px;
 }
-.app .nav .loguito {
+.app .pink .nav .loguito {
   width: 35px;
   height: 35px;
 }
-.app .nav .input {
+.app .pink .nav .input {
   width: 800px;
   height: 30px;
 }
